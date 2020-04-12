@@ -15,7 +15,7 @@ import org.apache.hadoop.mapreduce.Reducer;
 
 public class WordCount {
     static class WordCountMapper extends Mapper<LongWritable, Text, Text, Text> {
-        private javax.xml.soap.Text word = new Text();
+        private Text word = new Text();
         public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
             String line = value.toString();
             line = line.replaceAll("[^a-zA-Z0-9+]", " ");

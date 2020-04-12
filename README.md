@@ -6,6 +6,7 @@ Allows a user to upload text files and receive a wordcount output of all the doc
 1. First Java Application Implementation and Execution on Docker
 2. Docker to Local (or GCP) Cluster Communication
 3. Inverted Indexing MapReduce Implementation and Execution on the Cluster (GCP)
+Extra: Upload files functionality
 
 ## Video walkthrough link:
 https://youtu.be/G5r0hy5nz4U
